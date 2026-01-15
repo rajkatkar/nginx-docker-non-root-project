@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nginx Docker App</title>
+</head>
+<body>
+  <h1>Welcome to Nginx running in Docker with Non-Root User</h1>
+</body>
+</html>

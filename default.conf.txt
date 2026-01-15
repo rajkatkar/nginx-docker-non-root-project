@@ -1,0 +1,15 @@
+server {
+    listen 8090 default_server;
+    listen [::]:8090 default_server;
+
+    # Root directory for serving files
+    location / {
+        root /var/www/localhost/htdocs;
+        index index.html index.htm;
+    }
+
+    # Custom 404 error page (internal access only)
+    location = /404.html {
+        internal;
+    }
+}
